@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2 title="I'm a header">Welcome to my new website</h2>
+
+        <p title="I'm a tooltip">michelbeyrouty the one and only</p>
+
+    </body>
+    <script>
+        let ws;
+        const proto = window.location.protocol === "https:" ? "wss" : "ws";
+        ws = new WebSocket(`${proto}://${window.location.host}`);
+
+        ws.onmessage = (event) => {console.log(event.data)};
+    </script>
+</html>
