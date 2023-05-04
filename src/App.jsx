@@ -3,15 +3,14 @@ import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 
 const App = () => {
-
   return (
     <BrowserRouter>
-          <header>
-            <Link to="/">Michel Beyrouty</Link>
-          </header>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-          </Routes>
+      <header>
+        <Link to="/">Michel Beyrouty</Link>
+      </header>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </BrowserRouter>
   );
 };
