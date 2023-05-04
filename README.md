@@ -1,3 +1,5 @@
-# michelbeyrouty.bio
+# Pet Adoption
 
-Portfolio website deployed using Nginx web server
+Simple React project for adopting pets
+
+## run locally
