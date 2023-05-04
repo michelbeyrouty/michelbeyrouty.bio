@@ -1,7 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
-import SearchParams from "./components/SearchParams";
-import Details from "./components/Details";
+import HomePage from "./components/HomePage";
 
 const App = () => {
 
@@ -11,7 +10,6 @@ const App = () => {
             <Link to="/">Michel Beyrouty</Link>
           </header>
           <Routes>
-            <Route path="/details/:id" element={<Details />} />
             <Route path="/" element={<HomePage />} />
           </Routes>
     </BrowserRouter>
