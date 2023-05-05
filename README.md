@@ -1,6 +1,6 @@
-# Pet Adoption
+# My Portfolio Website
 
-Portfolio website built using react and parcel
+Portfolio website built using react, vite and docker
 
 ## run locally
 
