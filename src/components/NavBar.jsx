@@ -21,7 +21,7 @@ const NavBar = () => {
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
         <li>
           <a
@@ -51,6 +51,8 @@ const NavBar = () => {
           <a
             className="button"
             href="https://drive.google.com/file/d/1HDr6BAfzLlR3r7Ueav6fsK1VYMDOnDwH/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
           >
             Resume
           </a>

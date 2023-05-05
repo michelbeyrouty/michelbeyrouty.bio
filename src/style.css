@@ -261,6 +261,9 @@ article {
   order: 2;
   text-align: right;
 }
+.text p a {
+  text-decoration: none;
+}
 #projects ul {
   justify-content: flex-end;
 }
