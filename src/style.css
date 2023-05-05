@@ -20,6 +20,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+/* Background color divs */
+
+.gradient {
+  background: linear-gradient(90deg, rgba(80,118,166,1) 12%, rgba(240,246,243,1) 90%);
+  height: 2px;
+}
+
 /* generic styles for the page */
 body {
   padding: 0;
@@ -80,6 +88,10 @@ a:hover {
   padding: 3rem 0;
 }
 
+#contact-div {
+  background-color: var(--plum);
+}
+
 #contact p:last-child {
   margin-top: 3rem;
 }
@@ -132,6 +144,8 @@ nav [class*="fa-"]:hover {
   color: white;
   padding: 0.5rem;
   border-radius: 5px;
+  font-family: var(--mono);
+  text-decoration: none;
 }
 
 .button:hover {
@@ -141,6 +155,7 @@ nav [class*="fa-"]:hover {
 /* footer section */
 footer {
     text-align: center;
+    padding: 4rem 0;
 }
 footer ul {
     list-style-type: none;
