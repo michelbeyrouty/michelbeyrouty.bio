@@ -1,8 +1,15 @@
+import Contact from "./Contact";
+import Introduction from "./Introduction";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+
 const HomePage = () => {
   return (
     <div>
-      <h1 color="red">h1. Heading</h1>
-      <div className="search">MY MANNNN</div>
+      <NavBar />
+      <Introduction />
+      <Contact />
+      <Footer />
     </div>
   );
 };
