@@ -1,22 +1,25 @@
 /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
-  /* --black: #08203e;
-  --dkblue: #152f4c;
-  --plum: #223f5a;
-  --hotmag: #2f4e69;
-  --magenta: #3b5d77;
-  --aqua: #486d85;
-  --white: #557c93; */
-  --black: #171321;
+  --black: #01263d;
+  --dkblue: #03324e;
+  --plum: #be1e2d;
+  --hotmag: #c43240;
+  --magenta: #ef4043;
+  --aqua: #0e4c6d;
+  --white: #72bad5;
+
+  /* --black: #171321;
   --dkblue: #0d314b;
   --plum: #4b0d49;
   --hotmag: #ff17e4;
   --magenta: #e310cb;
   --aqua: #86fbfb;
-  --white: #f7f8fa;
+  --white: #f7f8fa; */
   --font-size: 1.3rem;
+
   /* --mono: 'Mulish', sans-serif;
   --sans: 'Space Mono', monospace; */
+
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
@@ -75,8 +78,9 @@ img {
 .gradient {
   background: linear-gradient(
     90deg,
-    rgba(255, 23, 228, 1) 0%,
-    rgba(134, 251, 251, 1) 100%
+    rgba(68, 48, 50, 1) 14%,
+    rgba(190, 30, 45, 1) 49%,
+    rgba(114, 186, 213, 1) 94%
   );
   height: 2px;
 }
@@ -93,17 +97,19 @@ img {
 #intro p {
   font-size: 1rem;
   line-height: 1.5;
+  color: var(--aqua);
 }
 
 #intro .name {
   font-family: var(--mono);
   font-size: 1rem;
+  color: var(--aqua);
 }
 
 .name span {
   font-family: var(--sans);
   font-size: 4rem;
-  color: var(--aqua);
+  color: var(--white);
   display: block;
   font-weight: 300;
 }
