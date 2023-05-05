@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   return (
@@ -15,13 +16,19 @@ const NavBar = () => {
           </h1>
         </li>
         <li>
-          <a href="/#projects">Projects</a>
+          <HashLink to="/#projects" smooth>
+            Projects
+          </HashLink>
         </li>
         <li>
-          <a href="/about">About</a>
+          <HashLink to="/about" smooth>
+            About
+          </HashLink>
         </li>
         <li>
-          <a href="/#contact">Contact</a>
+          <HashLink to="/#contact" smooth>
+            Contact
+          </HashLink>
         </li>
         <li>
           <a
